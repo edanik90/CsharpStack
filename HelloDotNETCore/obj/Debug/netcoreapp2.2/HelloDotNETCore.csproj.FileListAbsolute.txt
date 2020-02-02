@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\bin\Debug\netcoreapp2.2\HelloDotNETCore.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\bin\Debug\netcoreapp2.2\HelloDotNETCore.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\bin\Debug\netcoreapp2.2\HelloDotNETCore.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\bin\Debug\netcoreapp2.2\HelloDotNETCore.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\bin\Debug\netcoreapp2.2\HelloDotNETCore.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\HelloDotNETCore\obj\Debug\netcoreapp2.2\HelloDotNETCore.pdb
