@@ -6,7 +6,7 @@ namespace HelloDotNETCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет!");
+            Console.WriteLine("Yellow, world!");
         }
     }
 }
