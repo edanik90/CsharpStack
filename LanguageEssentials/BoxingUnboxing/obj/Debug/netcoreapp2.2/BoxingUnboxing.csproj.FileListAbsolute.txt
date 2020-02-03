@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.2\BoxingUnboxing.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.2\BoxingUnboxing.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.2\BoxingUnboxing.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.2\BoxingUnboxing.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.2\BoxingUnboxing.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.2\BoxingUnboxing.pdb
