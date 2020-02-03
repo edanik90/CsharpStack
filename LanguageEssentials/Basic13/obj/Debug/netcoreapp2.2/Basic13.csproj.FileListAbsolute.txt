@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\bin\Debug\netcoreapp2.2\Basic13.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\bin\Debug\netcoreapp2.2\Basic13.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\bin\Debug\netcoreapp2.2\Basic13.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\bin\Debug\netcoreapp2.2\Basic13.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\bin\Debug\netcoreapp2.2\Basic13.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\Basic13\obj\Debug\netcoreapp2.2\Basic13.pdb
