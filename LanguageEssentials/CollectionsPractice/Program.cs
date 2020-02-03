@@ -27,9 +27,10 @@ namespace CollectionsPractice
 
             // User Info Dictionary
             Dictionary<string,string> MyDictionary = new Dictionary<string,string>();
+            Random rand = new Random();
             for (int i = 0; i < SecondArray.Length; i++)
             {
-                MyDictionary.Add(SecondArray[i], IceCreamFLavors[i]);
+                MyDictionary.Add(SecondArray[i], IceCreamFLavors[rand.Next(0, IceCreamFLavors.Count)]);
             }
             foreach (KeyValuePair<string,string> entry in MyDictionary)
             {

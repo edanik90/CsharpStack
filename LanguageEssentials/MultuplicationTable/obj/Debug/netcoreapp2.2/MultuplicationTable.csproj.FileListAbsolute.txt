@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\bin\Debug\netcoreapp2.2\MultuplicationTable.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\bin\Debug\netcoreapp2.2\MultuplicationTable.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\bin\Debug\netcoreapp2.2\MultuplicationTable.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\bin\Debug\netcoreapp2.2\MultuplicationTable.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\bin\Debug\netcoreapp2.2\MultuplicationTable.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\MultuplicationTable\obj\Debug\netcoreapp2.2\MultuplicationTable.pdb
