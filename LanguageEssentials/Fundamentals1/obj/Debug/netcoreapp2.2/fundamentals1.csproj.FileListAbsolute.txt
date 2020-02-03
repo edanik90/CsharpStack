@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\bin\Debug\netcoreapp2.2\fundamentals1.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\bin\Debug\netcoreapp2.2\fundamentals1.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\bin\Debug\netcoreapp2.2\fundamentals1.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\bin\Debug\netcoreapp2.2\fundamentals1.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\bin\Debug\netcoreapp2.2\fundamentals1.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\fundamentals1\obj\Debug\netcoreapp2.2\fundamentals1.pdb
