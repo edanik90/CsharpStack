@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\Fundamentals1\\fundamentals1.csproj",
-      "projectName": "fundamentals1",
-      "projectPath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\Fundamentals1\\fundamentals1.csproj",
+      "projectUniqueName": "C:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\CollectionsPractice\\CollectionsPractice.csproj",
+      "projectName": "CollectionsPractice",
+      "projectPath": "C:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\CollectionsPractice\\CollectionsPractice.csproj",
       "packagesPath": "C:\\Users\\edt-9\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\Fundamentals1\\obj\\",
+      "outputPath": "C:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\LanguageEssentials\\CollectionsPractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

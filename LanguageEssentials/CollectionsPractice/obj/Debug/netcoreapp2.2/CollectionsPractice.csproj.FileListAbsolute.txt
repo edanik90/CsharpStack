@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\LanguageEssentials\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.pdb
