@@ -7,10 +7,10 @@ namespace Puzzles
     {
         static void Main(string[] args)
         {
-            // RandomArray();
-            // Console.WriteLine(TossCoin());
-            // Console.WriteLine(TossMultipleCoins(11));
-            Names();
+            RandomArray();
+            Console.WriteLine(TossCoin());
+            Console.WriteLine(TossMultipleCoins(11));
+            Console.WriteLine(Names());
         }
 
         public static int[] RandomArray()
