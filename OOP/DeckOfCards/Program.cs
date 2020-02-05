@@ -81,6 +81,13 @@ namespace DeckOfCards
             return topMost;
         }
 
+        public void DisplayCards()
+        {
+            foreach(Card card in cards)
+            {
+                Console.Write($"{card.CardRank} of {card.Suit}  ");
+            }
+        }
         public List<Card> Reset()
         {
             cards = new DeckOfCards().cards;
@@ -115,6 +122,15 @@ namespace DeckOfCards
             }
             return null;
         }
+
+        public void DisplayHand()
+        {
+            Console.WriteLine($"\n\n{Name}'s hand:\n***********");
+            foreach(Card card in Hand)
+            {
+                Console.WriteLine($"{card.CardRank} of {card.Suit}  ");
+            }
+        }
     }
     class Program
     {
@@ -122,40 +138,18 @@ namespace DeckOfCards
         {
             DeckOfCards newDeck = new DeckOfCards();
             Player player1 = new Player("Phil Ivey");
-            // for(int i = 0; i < 30; i++)
-            // {
-            //     newDeck.Deal();
-            // }
-            // foreach(Card card in newDeck.cards)
-            // {
-            //     Console.Write($"{card.CardRank} of {card.Suit}  ");
-            // }
             // newDeck.Reset();
             newDeck.Shuffle();
-            foreach(Card card in newDeck.cards)
-            {
-                Console.Write($"{card.CardRank} of {card.Suit}  ");
-            }
+            newDeck.DisplayCards();
             for(int i = 0; i < 4; i++)
             {
                 player1.Draw(newDeck);
             }
-            Console.WriteLine($"\n\n{player1.Name}'s hand:\n***********");
-            foreach(Card card in player1.Hand)
-            {
-                Console.WriteLine($"{card.CardRank} of {card.Suit}  ");
-            }
+            player1.DisplayHand();
             Console.WriteLine("\n\n");
-            foreach(Card card in newDeck.cards)
-            {
-                Console.Write($"{card.CardRank} of {card.Suit}  ");
-            }
+            newDeck.DisplayCards();
             player1.Discard(2);
-            Console.WriteLine($"\n\n{player1.Name}'s hand now:\n***********");
-            foreach(Card card in player1.Hand)
-            {
-                Console.WriteLine($"{card.CardRank} of {card.Suit}  ");
-            }
+            player1.DisplayHand();
         }
     }
 }
