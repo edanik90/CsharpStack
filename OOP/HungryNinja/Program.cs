@@ -73,11 +73,26 @@ namespace HungryNinja
             {
                 FoodHistory.Add(item);
                 calorieIntake += item.Calories;
-                Console.WriteLine(item.Name);
+                Console.Write(item.Name);
+                if(item.IsSpicy && item.IsSweet)
+                {
+                    Console.Write(" is sweet and spicy\n");
+                }
+                else
+                {
+                    if(item.IsSweet)
+                    {
+                        Console.Write(" is sweet\n");
+                    }
+                    else
+                    {
+                        Console.Write(" is spicy\n");
+                    }
+                }
             }
             else
             {
-                Console.WriteLine("Oops! You've eaten enough for today!");
+                Console.WriteLine("\nOops! You've eaten enough for today!");
             }
         }
     }
