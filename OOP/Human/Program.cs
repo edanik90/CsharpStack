@@ -19,7 +19,7 @@ namespace Human
         public int Strength;
         public int Intelligence;
         public int Dexterity;
-        protected int health;
+        private int health;
 
         public int Health
         {

@@ -69,7 +69,7 @@ namespace HungryNinja
 
         public void Eat(Food item)
         {
-            if(calorieIntake < 1200)
+            if(IsFull == false)
             {
                 FoodHistory.Add(item);
                 calorieIntake += item.Calories;
@@ -89,9 +89,11 @@ namespace HungryNinja
             Buffet newBuffet = new Buffet();
             Console.WriteLine($"Here is {newBuffet.Serve().Name} for you! Enjoy!");
             Ninja newNinja = new Ninja();
-            for(var i = 0; i < 4; i++){
+            while(newNinja.IsFull is false)
+            {
                 newNinja.Eat(newBuffet.Serve());
             }
+            Console.WriteLine("Ooops! Looks like you are full!");
         }
     }
 }
