@@ -1,0 +1,11 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\bin\Debug\netcoreapp2.2\Phone.deps.json
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\bin\Debug\netcoreapp2.2\Phone.runtimeconfig.json
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\bin\Debug\netcoreapp2.2\Phone.runtimeconfig.dev.json
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\bin\Debug\netcoreapp2.2\Phone.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\bin\Debug\netcoreapp2.2\Phone.pdb
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.AssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.dll
+C:\Users\edt-9\Desktop\codingDojo\C#\OOP\Phone\obj\Debug\netcoreapp2.2\Phone.pdb
