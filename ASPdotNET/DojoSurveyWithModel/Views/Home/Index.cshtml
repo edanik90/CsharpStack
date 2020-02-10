@@ -6,35 +6,39 @@
 
 
 <h1>Dojo Survey</h1>
-<form asp-action="Create" asp-controller="Home" method="post">
-    <label asp-for="Name"></label><br>
-    <input asp-for="Name">
-    <span asp-validation-for="Name"></span><br>
-
-    <label asp-for="Location"></label><br>
-    <select asp-for="Location">
-        <option value=""></option>
-        <option value="Chicago">Chicago</option>
-        <option value="Seattle">Seattle</option>
-        <option value="Dallas">Dallas</option>
-        <option value="Burbank">Burbank</option>
-    </select>
-    <span asp-validation-for="Location"></span><br>
-
-    <label asp-for="Language"></label><br>
-    <select asp-for="Language">
-        <option value=""></option>
-        <option value="Python">Python</option>
-        <option value="C#">C#</option>
-        <option value="JavaScript">JavaScript</option>
-        <option value="HTML">HTML</option>
-    </select>
-    <span asp-validation-for="Language"></span><br>
-
-    <label asp-for="Comment"></label><br>
-    <textarea name="Comment" cols="30" rows="10"></textarea>
-    <span asp-validation-for="Comment"></span><br>
-
-    <input type="submit" value="SUBMIT">
+<form class="col-5" asp-action="Create" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="Name" class="validation-errors"></span><br>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Location" class="validation-errors"></span><br>
+        <label asp-for="Location"></label>
+        <select asp-for="Location" class="form-control">
+            <option value=""></option>
+            <option value="Chicago">Chicago</option>
+            <option value="Seattle">Seattle</option>
+            <option value="Dallas">Dallas</option>
+            <option value="Burbank">Burbank</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Language" class="validation-errors"></span><br>
+        <label asp-for="Language"></label>
+        <select asp-for="Language" class="form-control">
+            <option value=""></option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML">HTML</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Comment" class="validation-errors"></span><br>
+        <label asp-for="Comment"></label>
+        <textarea name="Comment" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+    <input class="btn btn-dark" type="submit" value="SUBMIT">
     
 </form>
