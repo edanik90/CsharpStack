@@ -2961,8 +2961,8 @@
   "RootNamespace": "Portfolio",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ASPdotNET\\Portfolio\\Controllers\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Controllers\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ASPdotNET\\Portfolio\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

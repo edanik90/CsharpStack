@@ -17,7 +17,7 @@ C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\bin\Debug\netcoreapp2.2
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.TagHelpers.input.cache
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.TagHelpers.output.cache
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.RazorCoreGenerate.cache
-C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Razor\Controllers\Views\Home\Index.g.cshtml.cs
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.RazorTargetAssemblyInfo.cs
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.Views.pdb
 C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Portfolio.csproj.CopyComplete
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\Portfolio\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs

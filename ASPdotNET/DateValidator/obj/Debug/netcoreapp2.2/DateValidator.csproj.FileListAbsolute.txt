@@ -1,0 +1,6 @@
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.csprojAssemblyReference.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.csproj.CoreCompileInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.RazorAssemblyInfo.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.RazorAssemblyInfo.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.AssemblyInfoInputs.cache
+C:\Users\edt-9\Desktop\codingDojo\C#\ASPdotNET\DateValidator\obj\Debug\netcoreapp2.2\DateValidator.AssemblyInfo.cs

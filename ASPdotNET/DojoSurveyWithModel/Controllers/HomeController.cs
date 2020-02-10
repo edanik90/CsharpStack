@@ -10,19 +10,27 @@ namespace DojoSurveyWithModel.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet("")]
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost("process")]
-        public IActionResult Success(Dojo newDojo)
+        public IActionResult Create(Dojo newDojo)
         {
-            ViewBag.Name = newDojo.Name;
-            ViewBag.Location = newDojo.Location;
-            ViewBag.Language = newDojo.Language;
-            ViewBag.Comment = newDojo.Comment;
-            return View("Success");
+            if(ModelState.IsValid)
+            {
+                ViewBag.Name = newDojo.Name;
+                ViewBag.Location = newDojo.Location;
+                ViewBag.Language = newDojo.Language;
+                ViewBag.Comment = newDojo.Comment;
+                return View("Success");
+            }
+            else
+            {
+                return View("Index");
+            }
         }
     }
 }
