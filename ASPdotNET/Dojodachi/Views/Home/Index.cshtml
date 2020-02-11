@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3>Fullness: @ViewBag.Fullness</h3>
+    <h3>Happiness: @ViewBag.Happiness</h3>
+    <h3>Meals: @ViewBag.Meals</h3>
+    <h3>Energy: @ViewBag.Energy</h3>
+    <div class="dojodachi">
+        <img src="~/img/dojodachi.png" alt="Dojodachi">
+        @{
+            if(ViewBag.Message!=null)
+            {
+                <p class="messages">@ViewBag.Message</p>
+            }
+            else if(ViewBag.redMessage!=null)
+            {
+                <p class="redMessages">@ViewBag.redMessage</p>
+            }
+            else
+            {
+                <p class="messages">&nbsp</p>
+            }
+        }
+        
+
+    </div>
+    <div class="dojoButtons">
+        <a class="btn btn-dark" href="/feed">Feed</a>
+        <a class="btn btn-dark" href="/play">Play</a>
+        <a class="btn btn-dark" href="/work">Work</a>
+        <a class="btn btn-dark" href="/sleep">Sleep</a>
+    </div>
+</div>

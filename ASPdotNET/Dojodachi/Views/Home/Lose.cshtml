@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "You lost...";
+}
+
+<div class="text-center">
+    <h3>Fullness: @ViewBag.Fullness</h3>
+    <h3>Happiness: @ViewBag.Happiness</h3>
+    <h3>Meals: @ViewBag.Meals</h3>
+    <h3>Energy: @ViewBag.Energy</h3>
+    <div class="dojodachi">
+        <img src="~/img/lose.png" alt="Dojodachi">
+        <p class="redMessages">Your Dojodachi has passed away...</p>
+    </div>
+    <div class="dojoButtons">
+        <a class="btn btn-dark" href="/restart">Restart?</a>
+    </div>
+</div>
