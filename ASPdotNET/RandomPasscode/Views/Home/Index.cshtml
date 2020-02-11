@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>Random passcode (passcode #@ViewBag.Count)</h3>
+<form asp-action="Generate" asp-controller="Home" method="post">
+    <div class="col-5">
+        <h1>@ViewBag.Passcode<h1>
+        <input class="btn btn-dark" type="submit" value="Generate">
+    </div>
+</form>
