@@ -1,28 +1,39 @@
-﻿@{
+﻿@model User
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <form asp-action="Create" asp-controller="Home" method="post">
+<h1 class="display-4">Welcome</h1>
+<form class="col-5" asp-action="Create" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span class="validationErrors" asp-validation-for="FirstName"></span><br>
         <label asp-for="FirstName"></label>
         <input asp-for="FirstName">
-        <span asp-validation-for="FirstName"></span><br>
-        
+    </div>
+    
+    <div class="form-group">
+        <span class="validationErrors" asp-validation-for="LastName"></span><br>
         <label asp-for="LastName"></label>
         <input asp-for="LastName">
-        <span asp-validation-for="LastName"></span><br>
+    </div>
 
+    <div class="form-group">
+        <span class="validationErrors" asp-validation-for="Birthday"></span><br>
         <label asp-for="Birthday"></label>
         <input asp-for="Birthday">
-        <span asp-validation-for="Birthday"></span><br>
+    </div>
 
-        <span asp-validation-for="Email"></span>
+    <div class="form-group">
+        <span class="validationErrors" asp-validation-for="Email"></span><br>
         <label asp-for="Email"></label>
-        <input asp-for="Email"><br>
-        <span asp-validation-for="Password"></span>
+        <input asp-for="Email">
+    </div>
+
+    <div class="form-group">
+        <span class="validationErrors" asp-validation-for="Password"></span><br>
         <label asp-for="Password"></label>
-        <input asp-for="Password"><br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
+        <input asp-for="Password">
+    </div>
+    <input class="btn btn-dark" type="submit" value="Submit">
+</form>

@@ -1,32 +1,51 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 namespace DateValidator.Models
 
 {
     public class User
     {
-        [Required]
-        [MinLength(4)]
+        [Required(ErrorMessage = "First Name is required")]
+        [MinLength(4, ErrorMessage = "First Name should be at least 4 characters")]
         [Display(Name = "First Name:")]
         public string FirstName {get;set;}
 
-        [Required]
-        [MinLength(4)]
+        [Required(ErrorMessage = "Last Name is required")]
+        [MinLength(4, ErrorMessage = "Last Name should be at least 4 characters")]
         [Display(Name = "Last Name:")]
         public string LastName {get;set;}
 
-        [Required]
+        [Required(ErrorMessage = "Birthday is required")]
         [FutureDate]
         [DataType(DataType.Date)]
-        public Date Birthday {get;set;}
+        public DateTime Birthday {get;set;}
 
-        [Required]
+        [Required(ErrorMessage = "Email is required")]
         [EmailAddress]
         public string Email {get;set;}
 
-        [Required]
-        // [Range(8,60)]
+        [Required(ErrorMessage = "Password is required")]
+        [MinLength(4, ErrorMessage = "Password should be at least 8 characters long")]
         [DataType(DataType.Password)]
         public string Password {get;set;}
 
+    }
+
+    public class FutureDateAttribute : ValidationAttribute
+    {
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            DateTime currentDate;
+            if(value is DateTime)
+            {
+                currentDate = DateTime.Now;
+                if((DateTime)value > currentDate)
+                {
+                    return new ValidationResult("Birthday cannot be in the future!");
+                }
+                return ValidationResult.Success;
+            }
+            return new ValidationResult("Invalid date");
+        }
     }
 }
