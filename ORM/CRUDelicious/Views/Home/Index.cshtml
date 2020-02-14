@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/new">Add a Dish</a>
+</nav>
+<div class="text-center">
+    <h1>Welcome to CRUDelicious</h1>
+    <div class="dishes">
+        <h3>Check out some recent dishes!</h3>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach(var dish in @ViewBag.RecentDishes)
+        {
+            <li class="list-group-item"><a asp-action="DishInfo" asp-route-dishId="@dish.DishId" asp-controller="Home">@dish.Name</a> by @dish.Chef</li>
+        }
+    </ul>
+
+</div>
