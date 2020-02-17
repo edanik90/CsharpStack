@@ -1,0 +1,39 @@
+@model Association
+
+@{
+    ViewData["Title"] = "Category Page";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" asp-action="Index" asp-controller="Home">Products</a>
+    <a class="navbar-brand" asp-action="Categories" asp-controller="Home">Categories</a>
+</nav>
+
+<h2>@ViewBag.Category.Name</h2>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h4>Products:</h4>
+            <ul class="list-group list-group-flush">
+                @foreach(var association in @ViewBag.InCategory)
+                {
+                    <li class="list-group-item">@association.Product.Name</li>
+                }
+            </ul>
+        </div>
+        <div class="col">
+            <form class="col-5" asp-action="AddProduct" asp-route-categoryId="@ViewBag.Category.CategoryId" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label asp-for="ProductId">Add Product:</label>
+                    <select class="form-control" asp-for="ProductId">
+                        @foreach(var prod in @ViewBag.NotInCategory)
+                        {
+                            <option value="@prod.ProductId">@prod.Name</option>
+                        }
+                    </select>
+                </div>
+                <input type="submit" class="btn btn-danger" value="Add">
+            </form>
+        </div>
+    </div>
+</div>
