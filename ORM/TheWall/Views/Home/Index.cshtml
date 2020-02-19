@@ -1,0 +1,19 @@
+﻿@model LoginUser
+
+<h1>Sign In:</h1>
+<a asp-action="Registration" asp-controller="Home">Create a new account here</a>
+<form class="col-5" asp-action="SignIn" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="LoginEmail"></span><br>
+        <label asp-for="LoginEmail"></label>
+        <input class="form-control" asp-for="LoginEmail">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="LoginPassword"></span><br>
+        <label asp-for="LoginPassword"></label>
+        <input class="form-control" asp-for="LoginPassword">
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-dark" value="Sign In">
+    </div>
+</form>

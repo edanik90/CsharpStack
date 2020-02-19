@@ -1,0 +1,10 @@
+@model Comment
+
+<p>@ViewBag</p>
+
+<form class="col-10" asp-action="PostComment" asp-route-messageId="@ViewBag.MessageId" asp-controller="Wall" method="post">
+    <div class="form-group">
+        <textarea class="form-control" name="Content"></textarea>
+    </div>
+    <input class="btn btn-info btn-sm" type="submit" value="Add a comment">
+</form><br>

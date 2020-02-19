@@ -1,0 +1,49 @@
+@model Message
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" asp-action="Logout" asp-controller="Home">Logout</a>
+</nav>
+
+<br><h2>Welcome, @ViewBag.User.FirstName</h2><br>
+
+<br><h4>Post a message:</h4>
+<div class="col-10" style="border: 1px solid lightgrey; border-radius: 10px; box-shadow: 2px 2px 5px; padding:15px; background-color: lightblue;">
+    <form class="col-12" asp-action="PostMessage" asp-controller="Wall" method="post">
+        <div class="form-group">
+            <textarea class="form-control" asp-for="Content"></textarea>
+        </div>
+        <input class="btn btn-success" type="submit" value="Post a message">
+    </form>
+</div>
+<br><br><br>
+
+@foreach(var message in ViewBag.AllMessages)
+{
+    <h5>@message.Creator.FirstName @message.Creator.LastName - @message.CreatedAt.ToString("MMM dd, yyyy")</h5>
+    <div class="col-10" style="border: 1px solid lightgrey; border-radius: 10px; box-shadow: 2px 2px 5px; padding:15px; background-color: lightgrey;">
+        <p>@message.Content</p>
+        @if(message.Creator.UserId == ViewBag.User.UserId)
+        {
+            DateTime tNow = DateTime.Now;
+            TimeSpan ts = tNow - message.CreatedAt;
+            if(ts.TotalMinutes < 30)
+            {
+                <a class="btn btn-danger btn-sm" asp-action="DeleteMessage" asp-route-messageId="@message.MessageId" asp-controller="Wall">Delete message</a>
+            }
+        }
+        @foreach(var comment in message.Comments)
+        {
+            <h5>@comment.Creator.FirstName @comment.Creator.LastName - @comment.CreatedAt.ToString("MMM dd, yyyy")</h5>
+            <div class="col-8">
+                <p>@comment.Content</p>
+            </div>
+        }
+        <br><br>
+        <form class="col-11" asp-action="PostComment" asp-route-messageId="@message.MessageId" asp-controller="Wall" method="post">
+            <div class="form-group">
+                <textarea class="form-control" name="Content"></textarea>
+            </div>
+            <input class="btn btn-info btn-sm" type="submit" value="Add a comment">
+        </form>
+    </div><br>    
+}
