@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" asp-action="Index" asp-controller="Planner">Dashboard</a>
+    <a class="navbar-brand" asp-action="Logout" asp-controller="Home">Logout</a>
+</nav>
+
+<br><h2>@ViewBag.Wedding.WedderOne & @ViewBag.Wedding.WedderTwo's Wedding</h2><br>
+
+<h4>Date: @ViewBag.Wedding.Date.ToString("MMM dd, yyyy")</h4><br>
+
+<h4>Guests:</h4>
+
+<ul class="list-group list-group-flush">
+    @foreach(var guest in ViewBag.Guests)
+    {
+        <li class="list-group-item">@guest.Guest.FirstName @guest.Guest.LastName</li>
+    }
+</ul>

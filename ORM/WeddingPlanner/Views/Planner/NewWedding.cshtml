@@ -1,0 +1,35 @@
+@model Wedding
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" asp-action="Index" asp-controller="Planner">Dashboard</a>
+    <a class="navbar-brand" asp-action="Logout" asp-controller="Home">Logout</a>
+</nav>
+
+<br><h2>Plan your wedding:</h2><br>
+
+<div class="text-center">
+    <form class="col-5" asp-action="Create" asp-controller="Planner" method="post">
+        <div class="form-group">
+            <span class="validation" asp-validation-for="WedderOne"></span><br>
+            <label asp-for="WedderOne"></label>
+            <input class="form-control" asp-for="WedderOne">
+        </div>
+        <div class="form-group">
+            <span class="validation" asp-validation-for="WedderTwo"></span><br>
+            <label asp-for="WedderTwo"></label>
+            <input class="form-control" asp-for="WedderTwo">
+        </div>
+        <div class="form-group">
+            <span class="validation" asp-validation-for="Date"></span><br>
+            <label asp-for="Date"></label>
+            <input class="form-control" asp-for="Date">
+        </div>
+        <div class="form-group">
+            <span class="validation" asp-validation-for="Address"></span><br>
+            <label asp-for="Address"></label>
+            <input class="form-control" asp-for="Address">
+        </div>
+        <input class="btn btn-danger" type="submit" value="Create">
+    </form>
+
+</div>
