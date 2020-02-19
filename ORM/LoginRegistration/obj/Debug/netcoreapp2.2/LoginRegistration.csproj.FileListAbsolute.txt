@@ -28,5 +28,5 @@ C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2
 C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\LoginRegistration.dll
 C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\LoginRegistration.pdb
 C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\LoginRegistration.csproj.CopyComplete
-C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
 C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Home\Success.g.cshtml.cs
+C:\Users\edt-9\Desktop\codingDojo\C#\ORM\LoginRegistration\obj\Debug\netcoreapp2.2\Razor\Views\Home\Registration.g.cshtml.cs

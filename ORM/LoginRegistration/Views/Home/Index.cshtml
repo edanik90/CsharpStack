@@ -1,38 +1,19 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model LoginUser
 
-@model User
-
-<h1>Register</h1>
-<a asp-action="Login" asp-controller="Home">Login</a>
-<form class="col-5" asp-action="Register" asp-controller="Home" method="post">
+<h1>Sign In:</h1>
+<a asp-action="Registration" asp-controller="Home">Create a new account here</a>
+<form class="col-5" asp-action="SignIn" asp-controller="Home" method="post">
     <div class="form-group">
-        <span asp-validation-for="FirstName"></span><br>
-        <label asp-for="FirstName"></label>
-        <input class="form-control" asp-for="FirstName">
+        <span asp-validation-for="LoginEmail"></span><br>
+        <label asp-for="LoginEmail"></label>
+        <input class="form-control" asp-for="LoginEmail">
     </div>
     <div class="form-group">
-        <span asp-validation-for="LastName"></span><br>
-        <label asp-for="LastName"></label>
-        <input class="form-control" asp-for="LastName">
+        <span asp-validation-for="LoginPassword"></span><br>
+        <label asp-for="LoginPassword"></label>
+        <input class="form-control" asp-for="LoginPassword">
     </div>
     <div class="form-group">
-        <span asp-validation-for="Email"></span><br>
-        <label asp-for="Email"></label>
-        <input class="form-control" asp-for="Email">
-    </div>
-    <div class="form-group">
-        <span asp-validation-for="Password"></span><br>
-        <label asp-for="Password"></label>
-        <input class="form-control" asp-for="Password">
-    </div>
-    <div class="form-group">
-        <span asp-validation-for="ConfirmPassword"></span><br>
-        <label asp-for="ConfirmPassword"></label>
-        <input class="form-control" asp-for="ConfirmPassword">
-    </div>
-    <div class="form-group">
-        <input type="submit" class="btn btn-danger" value="Register">
+        <input type="submit" class="btn btn-dark" value="Sign In">
     </div>
 </form>

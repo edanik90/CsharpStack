@@ -2971,6 +2971,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ORM\\LoginRegistration\\Views\\Home\\Registration.cshtml",
+      "TargetPath": "Views\\Home\\Registration.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ORM\\LoginRegistration\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -2988,11 +2993,6 @@
     {
       "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ORM\\LoginRegistration\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edt-9\\Desktop\\codingDojo\\C#\\ORM\\LoginRegistration\\Views\\Home\\Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
     },
     {

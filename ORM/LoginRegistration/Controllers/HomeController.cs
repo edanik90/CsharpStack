@@ -24,8 +24,8 @@ namespace LoginRegistration.Controllers
             return View();
         }
 
-        [HttpGet("login")]
-        public IActionResult Login()
+        [HttpGet("registration")]
+        public IActionResult Registration()
         {
             return View();
         }
@@ -38,7 +38,7 @@ namespace LoginRegistration.Controllers
                 if(dbContext.Users.Any(u => u.Email == register.Email))
                 {
                     ModelState.AddModelError("Email", "Email is already in use");
-                    return View("Index");
+                    return View("Registration");
                 }
                 PasswordHasher<User> Hasher = new PasswordHasher<User>();
                 register.Password = Hasher.HashPassword(register, register.Password);
@@ -49,7 +49,7 @@ namespace LoginRegistration.Controllers
             }
             else
             {
-                return View("Index");
+                return View("Registration");
             }
         }
 
@@ -73,21 +73,21 @@ namespace LoginRegistration.Controllers
                 if(dbUser == null)
                 {
                     ModelState.AddModelError("LoginEmail", "Invalid email/password");
-                    return View("Login");
+                    return View("Index");
                 }
                 PasswordHasher<LoginUser> Hash = new PasswordHasher<LoginUser>();
                 var result = Hash.VerifyHashedPassword(login, dbUser.Password, login.LoginPassword);
                 if(result == 0)
                 {
                     ModelState.AddModelError("LoginEmail", "Invalid email/password");
-                    return View("Login");
+                    return View("Index");
                 }
                 HttpContext.Session.SetInt32("UserId", dbUser.UserId);
                 return RedirectToAction("Success");
             }
             else
             {
-                return View("Login");
+                return View("Index");
             }
         }
 
